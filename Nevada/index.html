@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nevada</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <h1 class="navbar-logo">
+        <a href="#">
+          <img src="./images/logo.png" alt="Nevada logo">
+        </a>
+      </h1>
+      <!-- 모바일, 메뉴 토글 햄버거 아이콘 -->
+      <div class="navbar-toggle">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </div>
+      <ul class="navbar-menu">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#portfolio">portfolio</a>
+        </li>
+        <li>
+          <a href="#prass">Prass</a>
+        </li>
+        <li>
+          <a href="#Brand">Brnad</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="intro">
+      <p>Aliquam pellentesque nisl et maximus egestas. Vivamus accumsan,</p>
+      <p>accumsan, sem ut viverra ullamcorper, neque ligula laoreet justo, </p>
+      <p>non semper nunc mauris mattis lorem.</p>
+    </section>
+    <section class="slider">
+      <!-- alt 수정하기, a11y 고려 필요 -->
+      <ul>
+        <li>
+          <img src="./images/slide-1.jpg" alt="slide image 1">
+        </li>
+        <li>
+          <img src="./images/slide-2.jpg" alt="slide image 2">
+        </li>
+        <li>
+          <img src="./images/slide-3.jpg" alt="slide image 3">
+        </li>
+        <li>
+          <img src="./images/slide-4.jpg" alt="slide image 4">
+        </li>
+      </ul>
+    </section>
+    <section class="about">
+      <div class="about-left">
+        <p>
+						Donec quis leo leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+						Cras scelerisque rhoncus nulla sit amet bibendum. Quisque maximus vel nibh non tincidunt. Mauris felis felis, porta 
+						vitae sem sed, auctor consequat diam. Sed eu magna ultricies, convallis elit vel, lacinia ante. 
+        </p>
+        <p>
+						Vestibulum tempor velit nibh, nec finibus lectus ultrices sodales. Aliquam pellentesque nisl et maximus egestas. Vivamus accumsan, sem ut viverra
+						ullamcorper, neque ligula laoreet justo, non semper nunc mauris mattis lorem. Maecenas finibus non ipsum ullamcorper vehicula.
+        </p>
+      </div>
+      <div class="about-right">
+        <p>
+						Aliquam pellentesque nisl et maximus egestas. Vivamus accumsan, sem ut viverra ullamcorper, neque ligula laoreet justo, 
+						non semper nunc mauris mattis lorem. Quisque maximus vel nibh non tincidunt. Mauris felis felis, porta 
+						vitae sem sed, auctor consequat diam. Sed eu magna ultricies, convallis elit vel, lacinia ante. Vestibulum tempor velit 
+						nibh, nec finibus lectus ultrices sodales
+        </p>
+        <img src="./images/signature.jpg" alt="signature">
+      </div>
+
+    </section>
+    <section class="portfolio">
+      <ul>
+        <!-- 이미지들 background, a display block -->
+        <li>
+          <a href="#">
+            <div class="overlay">
+                <h2>Vivamus accumsan</h2>
+                <p>Lacinia ipsum</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="overlay">
+                <h2>Lacinia ante</h2>
+                <p>Aliquam pellentesque</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="overlay">
+                <h2>Ultris sodales</h2>
+                <p>Quisque maximu</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="overlay">
+                <h2>Quisque maximu</h2>
+                <p>Sed eu magna</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- 포트폴리오에서 이미지 눌렀을 때 표시될 모달 팝업 -->
+    <div class="modal-container">
+      <button class="modal-close-btn" type="button">X</button>
+      <ul class="modal-content">
+        <li>
+          <img src="./images/1.jpg" alt="slide">
+        </li>
+        <li>
+          <img src="./images/2.jpg" alt="slide">
+        </li>
+        <li>
+          <img src="./images/3.jpg" alt="slide">
+        </li>
+        <li>
+          <img src="./images/4.jpg" alt="slide">
+        </li>
+      </ul>
+      <a href="#" class="modal-next-slide">다음</a>
+      <a href="#" class="modal-prev-slide">이전</a>
+    </div>
+    <section class="press">
+      <div class="press-left">
+          <h4>Presentations </h4>
+          <p><a href="#">Ducimus qui blanditiis </a></p>
+          <p>New York, April 2015</p>
+          <p>“Temporibus uit autem”</p>
+          <p><em>with Mark Riders</em></p>
+          <p><a href="#">Righteous and indignation</a></p>
+          <p>Madrid, November 2015</p>
+          <p>“Anyone who loves”</p>
+          <h4>Publications</h4>
+          <p><a href="#">Deserunt mollitia animi 2016</a></p>
+          <p><a href="#">Vitae dicta : sunt explicabo</a></p>
+          <p>Voluptatem sequi nesciunt, Fall 2015</p>
+          <p>Sunt in culpa qui deserunt, Spring 2015</p>
+          <p><a href="#">Who avoids and pain 4</a></p>
+          <p><a href="#">Desires to obtain 1</a></p>
+      </div>
+      <div class="press-center">
+        <h4>Premiations </h4>
+        <p><a href="#">Magnam, 2015</a>: Best User</p>  
+        <p><a href="#">Information Awards, 2014</a>: Gold </p>
+        <p><a href="#">One Man Show, 2015</a>: Platinum Arch</p>
+        <p><a href="#"><em>Mximus vel nibh</em>Innovation Awards, 2015</a></p>
+        <p><a href="#">Tincidunt idea 2016</a>: Gold Place</p>
+        <h4>More about me</h4>
+        <p><a href="#">Cupiditate non provident 2015</a></p>
+        <p><a href="#">Quis nostrum : exercitationem</a></p>
+        <p>Neque porro quisquam est, Fall 2015</p>
+        <p>Pellentesque nisl et maximus 2015</p>
+        <p><a href="#">Dolore magnam 30</a></p>
+        <p><a href="#">Architecto beatae 26</a></p>
+        <p><a href="#">Sit cras amet bibendum</a></p>
+        <p><a href="#">Emper nunc mauris</a></p>
+      </div>
+      <div class="press-right">
+        <h4>Recognition </h4>
+        <p>Aliquam pellentesque nisl et maximus egestas.<a href="#">nunc mauris</a> maximus vel <a href="#">maximus ipsum egestas lorem</a>
+          Cras scelerisque rhoncus nulla sit amet bibendum <em>because </em>Quisque maximus vel nibh non <em>tincidunt </em> non 
+          semper nunc mauris mattis lorem pellentesque nisl et maximus egestas. Vivamus accumsan, sem ut viverra ullamcorper, 
+          neque ligula laoreet justo.
+        </p>
+        <h4>Contact</h4>
+        <p>Nicola Tolin Web Design</p>
+        <p>Allaroud Road 2903</p>
+        <p>Madison Square, New York</p>
+        <p>
+          <a href="mailto:info@nicolatolin.com">info@nicolatolin.com</a>
+        </p>
+      </div>
+    </section>
+    <section class="brand">
+      <ul class="brand-logo-list">
+        <li>
+          <img src="./images/logo1.jpg" alt="Time-logo">
+        </li>
+        <li>
+          <img src="./images/logo2.jpg" alt="vice-logo">
+        </li>
+        <li>
+          <img src="./images/logo3.jpg" alt="WIRED-logo">
+        </li>
+        <li>
+          <img src="./images/logo5.jpg" alt="THE HUFFINGTON POST-logo">
+        </li>
+        <li>
+          <img src="./images/logo7.jpg" alt="HYPEBEAST-logo">
+        </li>
+        <li>
+          <img src="./images/logo8.jpg" alt="COOL HUNTING-logo">
+        </li>
+      </ul>  
+    </section>
+    <footer>
+      <p>© 2016 - DESIGNED BY NICOLA TOLIN</p>
+    </footer>
+  </div>
+</body>
+</html>
