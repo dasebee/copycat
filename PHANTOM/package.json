@@ -5,8 +5,7 @@
   "main": "index.html",
   "scripts": {
     "pug": "pug -w assets/index.pug -o ./",
-    "css": "node-sass --output-style compressed assets/scss/style.scss -o ./",
-    "watch": "npm run css && npm run css -- -w"
+    "css": "node-sass --output-style compressed assets/scss/style.scss -o ./"
   },
   "author": "",
   "license": "ISC",
